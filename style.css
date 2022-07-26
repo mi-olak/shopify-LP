@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+}
+.main {
+  padding: 3%;
+  background-image: url(images/background\ 5.jpg);
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover;
+  font-family:cursive;
+}
+.sectionA {
+  text-align: center;
+}
+.sectionA h1 {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 3%;
+}
+.sectionA h2 {
+  font-size: 1rem;
+  margin-bottom: 3%;
+  color: white;
+}
+.mini-secA {
+  margin-bottom: 5%;
+}
+.mini-secA input,
+button {
+  padding: 1%;
+  margin: 0% 2%;
+}
+.mini-secA button {
+  background-color: black;
+  color: white;
+}
+.sectionA p {
+  font-size: 0.7rem;
+  text-align: center;
+  color: white;
+  margin: 0% 10%;
+}
+.sectionB {
+  text-align: center;
+  margin: 5%;
+}
+.img-lap {
+  margin: 3% 27%;
+}
+.sectionB img {
+  width: 100%;
+  height: auto;
+}
+.sectionC {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+.sectionC h3 {
+  font-size: 0.7rem;
+  margin: 5% 0%;
+  text-transform: uppercase;
+}
+.sectionC p {
+    font-size: 0.8rem;
+}
+.tabA,
+.tabB,
+.tabC {
+  padding: 2%;
+}
+.img-icon {
+  margin: 0% 35%;
+}
+.tabA img,
+.tabB img,
+.tabC img {
+  width: 100%;
+  height: auto;
+}
