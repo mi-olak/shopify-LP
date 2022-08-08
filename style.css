@@ -11,7 +11,7 @@ body {
   background-repeat: no-repeat;
   background-position: fixed;
   background-size: cover;
-  font-family:cursive;
+  font-family:monospace;
 }
 .sectionA {
   text-align: center;
@@ -38,6 +38,11 @@ button {
   background-color: black;
   color: white;
 }
+.mini-secA button:hover {
+   cursor: pointer;
+   background-color: white;
+   color: black;
+}
 .sectionA p {
   font-size: 0.7rem;
   text-align: center;
@@ -59,6 +64,7 @@ button {
   display: flex;
   flex-direction: row;
   color: white;
+  font-family: monospace;
 }
 .sectionC h3 {
   font-size: 0.7rem;
@@ -66,7 +72,7 @@ button {
   text-transform: uppercase;
 }
 .sectionC p {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
 }
 .tabA,
 .tabB,
@@ -81,4 +87,43 @@ button {
 .tabC img {
   width: 100%;
   height: auto;
+}
+@media (max-width: 700px) {
+  .mini-secA {
+    display: flex;
+    flex-direction: column;
+  }
+  .sectionA h1 {
+    font-size: 1.5rem;
+    margin-bottom: 4%;
+  }
+  .sectionA h2 {
+    margin-bottom: 14%;
+  }
+  .mini-secA {
+    margin-bottom: 8%;
+  }
+  .mini-secA input {
+    margin: 1% 15%;
+  }
+  .mini-secA button {
+    margin: 1% 25%;
+    padding: 2%;
+  }
+  .sectionA p {
+    margin: 0% 10%;
+    font-size: 1rem;
+    margin-bottom: 15%;
+  }
+  .sectionC {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .sectionC h3 {
+    font-size: 1.8rem;
+  }
+.sectionC p {
+  font-size: 1.2rem;
+}
 }
